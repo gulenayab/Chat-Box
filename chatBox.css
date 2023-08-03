@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.chatbtn {
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    font-size: 25px;
+    font-family: cursive;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    opacity: 0.9;
+    cursor: pointer;
+    position: fixed;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+    width: 280px;
+}
+
+.popupcontainer {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    display: none;
+}
+
+.formContainer {
+    width: 75%;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+}
+
+.formContainer h1 {
+    font-family: cursive;
+    font-size: 35px;
+    text-align: center;
+    padding: 10px;
+    color: rgb(76, 13, 136);
+}
+
+.formContainer textarea {
+    width: 100%;
+    padding: 20px;
+    margin: 50px 0 30px;
+    font-size: 30px;
+    font-family: cursive;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    resize: none;
+    min-height: 300px;
+}
+
+::placeholder {
+    font-size: 30px;
+    font-family: cursive;
+    text-align: center;
+}
+
+.formContainer .btn {
+    background-color: rgb(93, 29, 153);
+    color: white;
+    padding: 14px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    font-size: 20px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+}
+
+.formContainer .cancel {
+    background-color: red;
+}
+
+.formContainer .btn:hover,
+.chatbtn:hover {
+    opacity: 1;
+}

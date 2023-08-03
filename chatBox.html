@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="chatBox.css">
+    <title>Chat Box</title>
+</head>
+
+<body>
+    <button class="chatbtn" onclick="openChat()">Chat</button>
+    <div class="popupcontainer" id="chatbox">
+        <form action="index.html" class="formContainer">
+            <h1>Own Chat Box</h1>
+            <textarea placeholder="Type Your Message" required></textarea>
+            <button type="submit" class="btn">Send
+            </button>
+            <button class="btn cancel" onclick="closeChat()">Close
+            </button>
+        </form>
+    </div>
+
+
+</body>
+
+<script src="chatBox.js"></script>
+
+</html>
